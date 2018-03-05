@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.fiap.listacompraappa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/comprasb"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/comprasb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CriarLoginActivity" />
+        <activity android:name=".ListarComprasActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddProdActivity"
+            android:label="@string/title_activity_add_prod"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TesteaActivity"
+            android:label="@string/title_activity_testea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProdActivity"
+            android:label="@string/title_activity_edit_prod"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AltProdActivity"
+            android:label="@string/title_activity_alt_prod"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".SobreActivity"
+            android:label="Sobre o Aplicativo"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    </application>
+
+</manifest>

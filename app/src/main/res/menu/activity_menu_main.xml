@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.fiap.listacompraappa.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_pesquisar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/pesquisar"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/action_sair"
+        android:title="@string/title_menu_sair"
+
+        />
+    <item
+        android:id="@+id/action_sobre"
+        android:title="@string/title_menu_sobre"
+
+        />
+
+
+</menu>
